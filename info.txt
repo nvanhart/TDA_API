@@ -1,0 +1,4 @@
+TD Ameritrade API to submit orders and retrieve price series. Currently
+used for options chains. Functional.
+
+Updated 1.11.20
