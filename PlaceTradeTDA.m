@@ -1,6 +1,8 @@
 function status = PlaceTradeTDA(ticker,shares)
 %% Submits trades for practice and live accounts
-%
+%  
+%  4.20.20: Correction added, but is recommended to use OrderLimit/OrderMarket/OrderOption
+%           varieties instead. These should be functional.
 %  12.31.19: 400 error. Something incorrect in request.
 %
 %  Ex: x_status = PlaceTradeTDA('x',100);
