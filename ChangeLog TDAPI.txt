@@ -1,0 +1,23 @@
+TD Ameritrade API ChangeLog
+
+Mar 2, 2021
+- Migrated to noah4 MacMini. Updloaded to github.
+- CWD Fcns: GetAccessToken, GetAccount, GetHours, GetMovers, GetOptionChain,
+            GetOrderLast, GetOrder, GetPriceHistory, GetQuotes,
+-           GetStreamingKey, PlaceOrderLimit, PlaceOrderMarket
+
+Jan 11, 2021
+- Class TDAPI functional
+- CWD Fcns: GetAccessToken, GetAccount, GetHours, GetMovers, GetOptionChain,
+            GetOrder, GetPriceHistory, GetQuotes, GetStreamingKey,
+
+Jan 8, 2021
+- GetAccessTokenTDA.m updated to prevent excessive token use throughout day
+- Class tdapi created to load globals for start of day
+
+Jan 1, 2021
+- Migrated to Noah3 MacBook. File paths universalized for PC.
+- CWD Fcns: AccountDetails, GetAccessToken, GetDataTDA, GetFullQuote,
+            GetHours, GetMovers, GetOptions, GetQuote, GetStreamingKey,
+            OrderDetails, OrderLimitStock, OrderMarketStock, OrderOption,
+            PlaceTrade, StreamPrices3D
